@@ -70,9 +70,9 @@ npm install
 cp .env.example .env
 ```
 Add your Ethereum mainnet RPC URL to .env:
-
+```bash
 RPC_URL="https://eth-mainnet.g.alchemy.com/v2/YOUR_KEY"
-
+```
 🔐 .env is ignored by Git — your keys stay local.
 
 ▶️ Usage
