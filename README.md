@@ -108,14 +108,3 @@ The tool is resilient to transient RPC failures and resumes monitoring automatic
 
 On a deep, liquid pool like USDC/WETH, alerts may be infrequent during low volatility — this is expected behavior
 
-
----
-
-### ✅ Next steps (quick reminder)
-1. Paste this into `README.md`
-2. Save the file
-3. Run:
-```bash
-git add README.md
-git commit -m "Update README for Uniswap V2 monitoring tool"
-git push
