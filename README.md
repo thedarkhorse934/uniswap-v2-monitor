@@ -4,6 +4,7 @@
 A CLI-based on-chain monitoring tool that reads Uniswap V2 liquidity to compute **ETH/USD prices per block** and emits **configurable alerts** based on price movement and on-chain activity.
 
 This project is designed for **learning and experimentation** with on-chain state, liquidity mechanics, rolling-window analysis, and alert design.  
+
 It **does not** execute trades or submit transactions.
 
 ---
@@ -26,10 +27,9 @@ Uniswap V2 prices are derived directly from pool reserves:
 
 ETH price (USD) = USDC_reserve / WETH_reserve
 
-
-No oracle.  
-No off-chain pricing.  
-All values come directly from **on-chain state** at each sampled block.
+- No oracle.  
+- No off-chain pricing.  
+- All values come directly from **on-chain state** at each sampled block.
 
 ---
 
@@ -87,6 +87,7 @@ Minimum absolute USDC reserve change required to trigger an alert
 
 --quiet
 Suppress informational logs and emit alerts only
+```
 
 🚫 What This Tool Does Not Do
 
