@@ -1,7 +1,7 @@
 
 
 {
-  "name": "token-analyzer",
+  "name": "uniswap-v2-monitor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
