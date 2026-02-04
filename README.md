@@ -71,20 +71,25 @@ Install dependencies:
 
 ```bash
 npm install
-
+```
+```
 node index.js --window 20 --threshold 0.25 --min-usdc 10000 --quiet true
-
+```
 ⚙️ CLI Flags
 
+```
 --window
 Number of blocks to compare against (rolling window)
-
+```
+```
 --threshold
 Minimum percentage price change required to trigger an alert
-
+```
+```
 --min-usdc
 Minimum absolute USDC reserve change required to trigger an alert
-
+```
+```
 --quiet
 Suppress informational logs and emit alerts only
 ```
